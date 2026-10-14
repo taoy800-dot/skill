@@ -1,0 +1,3 @@
+[submodule "skills/media-crawler-easy/MediaCrawler"]
+	path = skills/media-crawler-easy/MediaCrawler
+	url = https://github.com/NanmiCoder/MediaCrawler.git
