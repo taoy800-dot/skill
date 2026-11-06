@@ -2,26 +2,39 @@
 
 本仓库集中保存已安装的 Codex Skill 包，原始目录结构和配套文件尽量保持不变。
 
+## 使用状态（2026-11-06）
+
+产品宣传视频统一用 [OpenFilm](https://github.com/openfilm/openfilm) 官方版制作，只维护一套模板（见电脑上的 `E:\Claude超级剪辑`）。本仓库的 Skill 一律保留不删，按下表状态使用：
+
+| 状态 | 含义 |
+| --- | --- |
+| ✅ 在用 | 在宣传片流程里使用 |
+| ⏸ 暂停 | 和 OpenFilm 功能重叠（Remotion、HyperFrames），两套模板会让风格分叉；OpenFilm 做不到时再启用 |
+| ⛔ 停用 | MoneyPrinterTurbo：用通用素材库视频配音，画面与产品无关，达不到宣传片质感 |
+| ⚠️ 限用 | MediaCrawler：非商用许可，抓取的他人视频只用于分析节奏，不进成片 |
+
+AiToEarn 内置 Skills 默认暂停；其中 `generating-videos`（Grok 生视频）只允许生成背景和氛围画面，不得生成产品本体（会画错外形、Logo 和细节）。
+
 ## 已收录
 
 ### 本机安装包
 
-| Skill | 目录 |
-| --- | --- |
-| Agent Reach | [`skills/agent-reach`](./agent-reach) |
-| Copywriting | [`skills/copywriting`](./copywriting) |
-| MediaCrawler Easy | [`skills/media-crawler-easy`](./media-crawler-easy) |
-| MoneyPrinterTurbo Video | [`skills/moneyprinterturbo-video`](./moneyprinterturbo-video) |
-| pyVideoTrans | [`skills/pyvideotrans`](./pyvideotrans) |
-| HyperFrames | [`skills/hyperframes`](./hyperframes) |
-| HyperFrames Animation | [`skills/hyperframes-animation`](./hyperframes-animation) |
-| HyperFrames Audio | [`skills/hyperframes-audio`](./hyperframes-audio) |
-| HyperFrames CLI | [`skills/hyperframes-cli`](./hyperframes-cli) |
-| HyperFrames Core | [`skills/hyperframes-core`](./hyperframes-core) |
-| HyperFrames Creative | [`skills/hyperframes-creative`](./hyperframes-creative) |
-| HyperFrames Keyframes | [`skills/hyperframes-keyframes`](./hyperframes-keyframes) |
-| HyperFrames Registry | [`skills/hyperframes-registry`](./hyperframes-registry) |
-| Remotion Best Practices | [`skills/remotion-best-practices`](./remotion-best-practices) |
+| Skill | 目录 | 状态 |
+| --- | --- | --- |
+| Agent Reach | [`skills/agent-reach`](./agent-reach) | 保留 |
+| Copywriting | [`skills/copywriting`](./copywriting) | ✅ 在用（文案） |
+| MediaCrawler Easy | [`skills/media-crawler-easy`](./media-crawler-easy) | ⚠️ 仅竞品分析 |
+| MoneyPrinterTurbo Video | [`skills/moneyprinterturbo-video`](./moneyprinterturbo-video) | ⛔ 停用 |
+| pyVideoTrans | [`skills/pyvideotrans`](./pyvideotrans) | ✅ 在用（外语版） |
+| HyperFrames | [`skills/hyperframes`](./hyperframes) | ⏸ 暂停 |
+| HyperFrames Animation | [`skills/hyperframes-animation`](./hyperframes-animation) | ⏸ 暂停 |
+| HyperFrames Audio | [`skills/hyperframes-audio`](./hyperframes-audio) | ⏸ 暂停 |
+| HyperFrames CLI | [`skills/hyperframes-cli`](./hyperframes-cli) | ⏸ 暂停 |
+| HyperFrames Core | [`skills/hyperframes-core`](./hyperframes-core) | ⏸ 暂停 |
+| HyperFrames Creative | [`skills/hyperframes-creative`](./hyperframes-creative) | ⏸ 暂停 |
+| HyperFrames Keyframes | [`skills/hyperframes-keyframes`](./hyperframes-keyframes) | ⏸ 暂停 |
+| HyperFrames Registry | [`skills/hyperframes-registry`](./hyperframes-registry) | ⏸ 暂停 |
+| Remotion Best Practices | [`skills/remotion-best-practices`](./remotion-best-practices) | ⏸ 暂停 |
 
 ### AiToEarn 内置 Skills
 
